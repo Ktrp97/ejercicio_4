@@ -23,9 +23,10 @@ else:
     print("Error en la solicitud del recurso. Detalles:\n",
           respuesta.text)
     
-#respuesta_json = respuesta_json()
+# respuesta_json = respuesta_json()
 
 print(respuesta.json())
+
 
 
 
